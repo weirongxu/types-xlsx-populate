@@ -180,7 +180,7 @@ declare namespace XlsxPopulate {
     address(opts?: object): string
     cell(ri: number, ci: number): Cell
     autoFilter(): Range
-    cells(): [Cell][]
+    cells(): Cell[][]
     clear(): Range
     endCell(): Cell
     forEach(callback: Function): Range
